@@ -1,7 +1,7 @@
 pipeline {
     agent any
 
-    environmnet {
+    environment {
         VERCEL_TOKEN = credentials('vercel_token')
     }
 
